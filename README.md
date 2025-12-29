@@ -65,7 +65,7 @@ j'aide les entreprises à optimiser leurs performances en transformant des volum
 ## 📫 Me Contacter
 Je suis toujours ouvert à discuter de nouveaux projets ou d'opportunités de collaboration !
 
-- **LinkedIn** : [linkedin.com/in/moulhat-ahmed](www.linkedin.com/in/moulhat-ahmed-7695a31b1)
+- **LinkedIn** : [linkedin.com/in/moulhat-ahmed](https://www.linkedin.com/in/moulhat-ahmed-7695a31b1/)
 - **Email** : [moulhatahmed@gmail.com](moulhatahmed@gmail.com)
 - **X** : [@MoulhatAh](https://x.com/MoulhatAh)
 
