@@ -65,11 +65,11 @@ j'aide les entreprises à optimiser leurs performances en transformant des volum
 ## 📫 Me Contacter
 Je suis toujours ouvert à discuter de nouveaux projets ou d'opportunités de collaboration !
 
-- **LinkedIn** : [linkedin.com/in/ton-profil](https://linkedin.com/in/ton-profil)
-- **Email** : [ton.email@exemple.com](mailto:ton.email@exemple.com)
-- **Twitter** : [@ton_pseudo](https://twitter.com/ton_pseudo)
+- **LinkedIn** : [linkedin.com/in/ton-profil](www.linkedin.com/in/moulhat-ahmed-7695a31b1)
+- **Email** : [moulhatahmed@gmail.com](moulhatahmed@gmail.com)
+- **X** : [@MoulhatAh](https://x.com/MoulhatAh))
 
 ---
 <p align="center">
-  Dernière mise à jour : Décembre 2024 • Fait avec ❤️ par [Ton Nom]
+  Dernière mise à jour : Décembre 2025 • Fait par AHMED Moulhat
 </p>
