@@ -1,5 +1,5 @@
 # 👨‍💻 Moulhat AHMED
-### ** Data Analyst | Passionnée par Passionné par l'analyse de données.**
+###  Data Analyst | Passionnée par Passionné par l'analyse de données
 
 <p align="left">
   <img src="https://img.shields.io/badge/Status-Open%20to%20Work-success?style=for-the-badge" alt="Status">
