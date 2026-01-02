@@ -41,11 +41,28 @@ j'aide les entreprises à optimiser leurs performances en transformant des volum
 ---
 
 ## 📂 Projets Data Phares
+### 📊 Automatiser les rapports de ventes avec SQL
+> **Problématique**: Une entreprise souhaite produire un rapport détaillant les ventestotales par produit pour le dernier trimestre.
+> Ce mini projet m'a permis de m'exercer à effectuer des requêtes SQL, créer des vues permettant d'alimenter automatiquement un reporting à destination du management , pour répondre à des besoins métiers (suivre la performance commerciale, identifier les produits les plus rentables etc.). J’ai conçu un mini data mart de ventes avec SQLite en automatisant les KPI via des vues SQL.
+J’ai couvert les analyses de performance temporelle, produit et client, y compris l’identification des produits les moins performants pour aider à la prise de décision
+Analyse d’une base de données relationnelle (Chinook)
+Extraction et agrégation des ventes par produit
+Calcul de KPI commerciaux (CA, quantités, prix moyens)
+Mise en place d’une vue SQL pour automatiser le reporting
+> Mise en place d’un système de reporting de ventes automatisé via SQL (SQLite).
+Création de vues métiers permettant l’analyse des performances produits, clients et temporelles.
+Les vues sont directement exploitables dans Excel et Power BI.
+Technologies : DB Browser SQLite / SQL
+> Ventes mensuelles : courbes de tendance , saisonnalité, prévision simple
+> top produits : mise en avant produit , pricing, promotions
+> Part de vente des produits : analyse pareto 80/20
+> meilleurs clients : segmentation , fidékisation , marketing ciblé
+> fréquence d'achat client : churn , valeur client
+> Progression comparaison trimestre
+J’ai construit des vues SQL qui automatisent les KPI métiers, puis je les ai exploitées dans Excel pour créer des dashboards de suivi des performances de ventes.
+La logique métier est centralisée dans SQL, ce qui garantit des indicateurs cohérents et réutilisables.
+>
 
-### 📈 Pilotage de Performance Formation (Orange)
-> Optimisation du suivi de déploiement de formations internes via des dashboards interactifs.
-- **Outils** : Power BI, SQL, KPI Analysis.
-- **Résultat** : Amélioration de la visibilité sur le taux de réussite et de satisfaction de +5000 apprenants.
 
 ### 🏠 Analyse du Marché Immobilier & Scoring
 > Analyse exploratoire des données Airbnb et construction de modèles de scoring de crédit.
@@ -57,13 +74,20 @@ j'aide les entreprises à optimiser leurs performances en transformant des volum
 - **Outils** : Python, Machine Learning.
 - **Résultat** : Filtrage collaboratif pour suggérer des contenus personnalisés.
 
+---
+
+## 📊 Mes expériences professionnelles
+
 ### 🏛️ Migration de Données Patrimoniales (Ministère de la Culture)
 > Migration et nettoyage de +100 000 données d'urbanisme.
 - **Outils** : Talend, PostgreSQL, ETL Pipelines.
 
----
 
-## 📊 Statistiques GitHub
+### 📈 Pilotage de Performance Formation (Orange)
+> Optimisation du suivi de déploiement de formations internes via des dashboards interactifs.
+- **Outils** : Power BI, SQL, KPI Analysis.
+- **Résultat** : Amélioration de la visibilité sur le taux de réussite et de satisfaction de +5000 apprenants.
+
 <p align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=TON_PSEUDO&show_icons=true&theme=nord&include_all_commits=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TON_PSEUDO&layout=compact&theme=nord"/>
