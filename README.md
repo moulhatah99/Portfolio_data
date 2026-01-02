@@ -42,26 +42,173 @@ j'aide les entreprises à optimiser leurs performances en transformant des volum
 
 ## 📂 Projets Data Phares
 ### 📊 Automatiser les rapports de ventes avec SQL
-> **Problématique**: Une entreprise souhaite produire un rapport détaillant les ventestotales par produit pour le dernier trimestre.
-> Ce mini projet m'a permis de m'exercer à effectuer des requêtes SQL, créer des vues permettant d'alimenter automatiquement un reporting à destination du management , pour répondre à des besoins métiers (suivre la performance commerciale, identifier les produits les plus rentables etc.). J’ai conçu un mini data mart de ventes avec SQLite en automatisant les KPI via des vues SQL.
-J’ai couvert les analyses de performance temporelle, produit et client, y compris l’identification des produits les moins performants pour aider à la prise de décision
-Analyse d’une base de données relationnelle (Chinook)
-Extraction et agrégation des ventes par produit
-Calcul de KPI commerciaux (CA, quantités, prix moyens)
-Mise en place d’une vue SQL pour automatiser le reporting
-> Mise en place d’un système de reporting de ventes automatisé via SQL (SQLite).
-Création de vues métiers permettant l’analyse des performances produits, clients et temporelles.
-Les vues sont directement exploitables dans Excel et Power BI.
-Technologies : DB Browser SQLite / SQL
-> Ventes mensuelles : courbes de tendance , saisonnalité, prévision simple
-> top produits : mise en avant produit , pricing, promotions
-> Part de vente des produits : analyse pareto 80/20
-> meilleurs clients : segmentation , fidékisation , marketing ciblé
-> fréquence d'achat client : churn , valeur client
-> Progression comparaison trimestre
-J’ai construit des vues SQL qui automatisent les KPI métiers, puis je les ai exploitées dans Excel pour créer des dashboards de suivi des performances de ventes.
-La logique métier est centralisée dans SQL, ce qui garantit des indicateurs cohérents et réutilisables.
->
+
+#### 🧩 Contexte & problématique métier
+
+Une entreprise souhaite disposer d’un **reporting automatisé des performances de ventes**, afin de :
+
+- Suivre l’évolution du chiffre d’affaires dans le temps  
+- Identifier les produits les plus rentables et les moins performants  
+- Analyser le comportement des clients (fréquence d’achat, contribution au CA)  
+- Faciliter la prise de décision commerciale (pricing, promotions, actions marketing)
+
+L’objectif est de **centraliser la logique métier directement en SQL**, afin de garantir des indicateurs cohérents, réutilisables et facilement exploitables dans des outils de reporting.
+
+---
+
+#### 🎯 Objectifs du projet
+
+Ce mini-projet avait pour objectifs de :
+
+- Analyser une base de données relationnelle de ventes (Chinook)
+- Extraire et agréger les ventes par produit, client et période
+- Calculer des KPI commerciaux clés :
+  - Chiffre d’affaires
+  - Quantités vendues
+  - Prix moyens
+- Mettre en place des **vues SQL** pour automatiser le reporting
+- Concevoir un **mini data mart de ventes** exploitable dans Excel et Power BI
+
+---
+
+#### 🗂️ Base de données
+
+- **Base utilisée** : Chinook Database  
+- **Type** : base de données relationnelle (SQLite)
+- **Tables principales exploitées** :
+  - `Invoice`
+  - `InvoiceLine`
+  - `Customer`
+  - `Track`
+
+---
+
+#### 🛠️ Approche & méthodologie
+
+##### 1️⃣ Analyse de la base de données
+- Compréhension du modèle relationnel
+- Identification des clés de jointure
+- Analyse des dimensions métier : temps, produits, clients
+
+##### 2️⃣ Requêtes SQL analytiques
+- Jointures multi-tables
+- Agrégations (`SUM`, `AVG`, `COUNT`)
+- Calculs de KPI commerciaux
+- Analyses temporelles (mensuelles, trimestrielles)
+
+##### 3️⃣ Automatisation via des vues SQL
+- Centralisation de la logique métier
+- Création de vues SQL réutilisables
+- Calcul dynamique du **dernier trimestre disponible**
+- Standardisation des indicateurs de performance
+
+---
+
+#### 📈 Analyses réalisées
+
+Les analyses suivantes ont été automatisées via SQL :
+
+##### 🔹 Performance des ventes
+- Ventes mensuelles (courbes de tendance)
+- Analyse de la saisonnalité
+- Comparaison des performances trimestrielles
+
+##### 🔹 Analyse produit
+- Top produits par chiffre d’affaires
+- Identification des produits les moins performants
+- Analyse Pareto (80/20)
+- Contribution des produits au chiffre d’affaires total
+
+##### 🔹 Analyse client
+- Meilleurs clients par chiffre d’affaires
+- Fréquence d’achat client
+- Contribution client au CA
+- Aide à l’identification du churn et de la valeur client
+
+---
+
+#### 🧠 Automatisation du reporting avec SQL
+
+Plusieurs **vues SQL métiers** ont été conçues, notamment :
+
+- Vue de ventes du dernier trimestre
+- Vue de ventes mensuelles
+- Vue de classement des produits
+- Vue de performance client
+
+Ces vues permettent :
+
+- Une mise à jour automatique des KPI
+- Une exploitation directe dans Excel et Power BI
+- Une séparation claire entre :
+  - **Logique métier (SQL)**
+  - **Visualisation (BI)**
+
+> 💡 La logique métier étant centralisée dans SQL, les indicateurs restent cohérents quel que soit l’outil de restitution.
+
+---
+
+#### 📊 Exploitation dans Excel & Power BI
+
+Les vues SQL ont été connectées à :
+
+- **Excel** (via ODBC) pour créer des tableaux de bord dynamiques
+- **Power BI** pour des visualisations interactives
+
+Les dashboards permettent :
+- Le suivi des performances commerciales
+- L’analyse produit et client
+- Le rafraîchissement automatique des données
+
+---
+
+#### 🖼️ Aperçu – requêtes & résultats
+
+##### Exemple de vue SQL – ventes du dernier trimestre
+![Vue SQL - ventes dernier trimestre](images/sql_last_quarter_view.png)
+
+##### Résultat de la requête – agrégation par produit
+![Résultat requête ventes produit](images/sql_results_sales.png)
+
+##### Exploitation dans Excel
+![Dashboard Excel](images/excel_dashboard.png)
+
+> 📌 Les images sont stockées dans le dossier `/images` du repository.
+
+---
+
+#### 🧰 Technologies utilisées
+
+- SQL (SQLite)
+- DB Browser for SQLite
+- ODBC
+- Excel
+- Power BI
+
+---
+
+#### ✅ Compétences démontrées
+
+- Analyse de données relationnelles
+- SQL analytique (jointures, agrégations)
+- Création de vues SQL automatisées
+- Modélisation simple de data mart
+- Reporting orienté métier
+- Connexion SQL → Excel / Power BI
+
+---
+
+#### 📌 Ce que ce projet met en évidence
+
+> Capacité à transformer une base de données brute en **reporting automatisé orienté décision**, en centralisant la logique métier dans SQL et en la rendant exploitable par des outils BI.
+
+---
+
+#### 🚀 Améliorations possibles
+
+- Utilisation de fonctions analytiques (window functions)
+- Prévisions simples (moyennes mobiles)
+- Segmentation client plus avancée (RFM)
 
 
 ### 🏠 Analyse du Marché Immobilier & Scoring
