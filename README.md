@@ -1,4 +1,4 @@
-# 📊 Moulhat AHMED | Data Analyst
+
 ### **Spécialiste Visualisation de Données & Business Intelligence**
 
 <p align="left">
@@ -10,7 +10,7 @@
 ---
 
 ## 🚀 À propos de moi
-Passionné par l'impact concret des données, j'accompagne les entreprises dans la transformation de données brutes en insights actionnables. Mon parcours, allant du **Master Big Data (Paris Saclay)** au **Mastère Cybersécurité**, me permet d'allier rigueur analytique et compréhension de besoins métier.
+Passionné par l'impact concret des données, j'accompagne les entreprises dans la transformation de données brutes en insights actionnables. Mon parcours, allant du Master Big Data (Paris Saclay) au Mastère Cybersécurité, me permet d'allier rigueur analytique et compréhension de besoins métier.
 j'aide les entreprises à optimiser leurs performances en transformant des volumes de données brutes en informations exploitables pour la prise de décision. Je dispose d'une double compétence : une maîtrise technique des outils (SQL, Python, Excel, Power BI) et une forte compréhension des besoins métiers et de la Business Intelligence. Mon expérience inclut également la préparation et l'intégration de données via des outils ETL comme Talend. Mon objectif est d'apporter des solutions concrètes, qu'il s'agisse d'automatiser des reportings, de valider des hypothèses par les statistiques ou de segmenter une clientèle pour mieux cibler les actions stratégiques
 
 
@@ -41,7 +41,7 @@ j'aide les entreprises à optimiser leurs performances en transformant des volum
 ---
 
 ## 📂 Projets Data Phares
-### 📊 Automatiser les rapports de ventes avec SQL
+### 📊 **Automatiser les rapports de ventes avec SQL**
 
 #### 🧩 Contexte & problématique métier
 
@@ -52,7 +52,7 @@ Une entreprise souhaite disposer d’un **reporting automatisé des performances
 - Analyser le comportement des clients (fréquence d’achat, contribution au CA)  
 - Faciliter la prise de décision commerciale (pricing, promotions, actions marketing)
 
-L’objectif est de **centraliser la logique métier directement en SQL**, afin de garantir des indicateurs cohérents, réutilisables et facilement exploitables dans des outils de reporting.
+L’objectif est de centraliser la logique métier directement en SQL, afin de garantir des indicateurs cohérents, réutilisables et facilement exploitables dans des outils de reporting.
 
 ---
 
@@ -67,7 +67,7 @@ Ce mini-projet avait pour objectifs de :
   - Quantités vendues
   - Prix moyens
 - Mettre en place des **vues SQL** pour automatiser le reporting
-- Concevoir un **mini data mart de ventes** exploitable dans Excel et Power BI
+- Concevoir un mini data mart de ventes exploitable dans Excel et Power BI
 
 ---
 
@@ -90,7 +90,7 @@ Ce mini-projet avait pour objectifs de :
 - Identification des clés de jointure
 - Analyse des dimensions métier : temps, produits, clients
 
-##### 2️⃣ Requêtes SQL analytiques
+##### 2️⃣ **Requêtes SQL analytiques**
 - Jointures multi-tables
 - Agrégations (`SUM`, `AVG`, `COUNT`)
 - Calculs de KPI commerciaux
