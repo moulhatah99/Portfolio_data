@@ -52,15 +52,24 @@ Une entreprise souhaite disposer d’un **reporting automatisé des performances
 - Analyser le comportement des clients (fréquence d’achat, contribution au CA)  
 - Faciliter la prise de décision commerciale (pricing, promotions, actions marketing)
 
-L’objectif est de centraliser la logique métier directement en SQL, afin de garantir des indicateurs cohérents, réutilisables et facilement exploitables dans des outils de reporting.
+> Ce projet met en évidence ma capacité à transformer une base de données brute en **reporting automatisé orienté décision**, en centralisant la logique métier dans SQL et en la rendant exploitable par des outils BI.
+---
 
+#### ✅ Compétences démontrées
+
+- Analyse de données relationnelles
+- SQL analytique (jointures, agrégations)
+- Création de vues SQL automatisées
+- Modélisation simple de data mart
+- Reporting orienté métier
+  
 ---
 
 #### 🎯 Objectifs du projet
 
 Ce mini-projet avait pour objectifs de :
 
-- Analyser une base de données relationnelle de ventes (Chinook)
+- Analyser une base de données relationnelle de ventes (Chinook Database)
 - Extraire et agréger les ventes par produit, client et période
 - Calculer des KPI commerciaux clés :
   - Chiffre d’affaires
@@ -68,19 +77,12 @@ Ce mini-projet avait pour objectifs de :
   - Prix moyens
 - Mettre en place des **vues SQL** pour automatiser le reporting
 - Concevoir un mini data mart de ventes exploitable dans Excel et Power BI
-
 ---
 
-#### 🗂️ Base de données
+#### 🧰 Technologies utilisées
 
-- **Base utilisée** : Chinook Database  
-- **Type** : base de données relationnelle (SQLite)
-- **Tables principales exploitées** :
-  - `Invoice`
-  - `InvoiceLine`
-  - `Customer`
-  - `Track`
-
+- SQL (SQLite)
+- DB Browser for SQLite
 ---
 
 #### 🛠️ Approche & méthodologie
@@ -148,20 +150,6 @@ Ces vues permettent :
 
 ---
 
-#### 📊 Exploitation dans Excel & Power BI
-
-Les vues SQL ont été connectées à :
-
-- **Excel** (via ODBC) pour créer des tableaux de bord dynamiques
-- **Power BI** pour des visualisations interactives
-
-Les dashboards permettent :
-- Le suivi des performances commerciales
-- L’analyse produit et client
-- Le rafraîchissement automatique des données
-
----
-
 #### 🖼️ Aperçu – requêtes & résultats
 
 ##### Exemple de vue SQL – ventes du dernier trimestre
@@ -170,46 +158,7 @@ Les dashboards permettent :
 ##### Résultat de la requête – agrégation par produit
 ![Résultat requête ventes produit](images/sql_results_sales.png)
 
-##### Exploitation dans Excel
-![Dashboard Excel](images/excel_dashboard.png)
-
-> 📌 Les images sont stockées dans le dossier `/images` du repository.
-
 ---
-
-#### 🧰 Technologies utilisées
-
-- SQL (SQLite)
-- DB Browser for SQLite
-- ODBC
-- Excel
-- Power BI
-
----
-
-#### ✅ Compétences démontrées
-
-- Analyse de données relationnelles
-- SQL analytique (jointures, agrégations)
-- Création de vues SQL automatisées
-- Modélisation simple de data mart
-- Reporting orienté métier
-- Connexion SQL → Excel / Power BI
-
----
-
-#### 📌 Ce que ce projet met en évidence
-
-> Capacité à transformer une base de données brute en **reporting automatisé orienté décision**, en centralisant la logique métier dans SQL et en la rendant exploitable par des outils BI.
-
----
-
-#### 🚀 Améliorations possibles
-
-- Utilisation de fonctions analytiques (window functions)
-- Prévisions simples (moyennes mobiles)
-- Segmentation client plus avancée (RFM)
-
 
 ### 🏠 Analyse du Marché Immobilier & Scoring
 > Analyse exploratoire des données Airbnb et construction de modèles de scoring de crédit.
