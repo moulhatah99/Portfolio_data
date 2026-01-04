@@ -41,7 +41,7 @@ j'aide les entreprises à optimiser leurs performances en transformant des volum
 ---
 
 ## 📂 Projets réalisés
-### 📊 **Automatisation de rapports de ventes avec SQL**
+### 📊 ** 1 Automatisation de rapports de ventes avec SQL**
 Dans ce projet, j’ai travaillé sur la conception d’un système de reporting de ventes automatisé à partir d’une base de données relationnelle existante : **Chinook Database**. L’objectif était de répondre à des problématiques concrètes de pilotage de la performance commerciale, en centralisant la logique métier directement dans SQL afin de produire des indicateurs fiables, cohérents et exploitables dans des outils de Business Intelligence.
 
 #### 🧩 **Contexte & problématique métier**
@@ -75,12 +75,12 @@ L’ensemble de ces analyses offre une vision complète et actionnable de la per
 
 ---
 
-### 🏠 Analyse du Marché Immobilier & Scoring
+### 🏠 2 Analyse du Marché Immobilier & Scoring
 > Analyse exploratoire des données Airbnb et construction de modèles de scoring de crédit.
 - **Outils** : Python (Scikit-learn, Pandas), Jupyter.
 - **Résultat** : Identification des facteurs clés influençant les prix et prédiction des comportements d'emprunt.
 
-### 🎬 Système de Recommandation de Films
+### 🎬 3 Système de Recommandation de Films
 > Développement d'un algorithme de recommandation basé sur les datasets IMDb/TMDB.
 - **Outils** : Python, Machine Learning.
 - **Résultat** : Filtrage collaboratif pour suggérer des contenus personnalisés.
