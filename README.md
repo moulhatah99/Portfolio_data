@@ -42,15 +42,12 @@ j'aide les entreprises à optimiser leurs performances en transformant des volum
 
 ## 📂 Projets réalisés
 ### 📊 **Automatisation de rapports de ventes avec SQL**
----
 Dans ce projet, j’ai travaillé sur la conception d’un système de reporting de ventes automatisé à partir d’une base de données relationnelle existante : **Chinook Database**. L’objectif était de répondre à des problématiques concrètes de pilotage de la performance commerciale, en centralisant la logique métier directement dans SQL afin de produire des indicateurs fiables, cohérents et exploitables dans des outils de Business Intelligence.
 
 #### 🧩 **Contexte & problématique métier**
-
 Une entreprise souhaite disposer d’un reporting automatisé offrant une vision claire et actualisée de ses performances de ventes, pour suivre l’évolution du chiffre d’affaires dans le temps, identifier les produits les plus rentables, détecter les produits sous-performants et mieux comprendre le comportement de ses clients(fréquence d’achat, contribution au CA), afin de faliciter la prise de décisions éclairées en matière de pricing, de promotions et de stratégie commerciale (actions marketing. :
 
 #### 🛠️ **Approche & méthodologie**
-
 Pour répondre à ces besoins, j’ai commencé par analyser le modèle relationnel de la base de données Chinook, en identifiant les tables clés liées aux ventes, aux produits, aux clients et aux dates de facturation. Cette étape m’a permis de comprendre les relations entre les entités et de définir les dimensions métiers nécessaires à l’analyse : le temps, les produits et les clients.
 
 ##### 🧰 **Technologies utilisées**
@@ -63,15 +60,10 @@ Les analyses mises en place couvrent plusieurs dimensions clés de la performanc
   - **Suivi des ventes mensuelles et trimestrielles** afin d'identifier les périodes de forte activité, de mettre en évidence des phénomènes de saisonnalité et de comparer les performances d’un trimestre à l’autre. Ces analyses sont essentielles pour anticiper les pics de ventes et ajuster les stratégies commerciales en fonction des périodes les plus porteuses.
   - **Analyse produits** : pour identifier les produits les plus rentables, mais aussi ceux dont les performances sont insuffisantes. L’utilisation d’une analyse de type Pareto (80/20) met en évidence le nombre minimal de produits générant la majorité du chiffre d’affaires. Cette approche aide à prioriser les efforts marketing, à optimiser les assortiments et à concentrer les actions commerciales sur les produits à plus forte valeur ajoutée.
   - **Analyse clients** : pour identifier les meilleurs clients en termes de chiffre d’affaires et de fréquence d’achat. Ces analyses permettent de mettre en place une segmentation client de type RFM (Récence, Fréquence, Montant), essentielle pour comprendre la valeur des clients et adapter les actions marketing. Grâce à cette segmentation, il devient possible d’identifier les clients à forte valeur afin de les fidéliser, de repérer les clients à risque de churn et de proposer des offres ou promotions ciblées en fonction des habitudes d’achat.
-    
----
 
 L’ensemble de ces analyses offre une vision complète et actionnable de la performance commerciale. Elles permettent non seulement de suivre les indicateurs clés, mais aussi d’orienter les décisions stratégiques, qu’il s’agisse d’optimiser les ventes sur certaines périodes, de mettre en avant des produits spécifiques ou de personnaliser les actions marketing selon les profils clients.
 
----
-
 #### 🖼️ Aperçu – requêtes & résultats
-
 ##### Exemple de vue SQL – ventes du dernier trimestre
 ![Vue SQL - ventes dernier trimestre](images/sql_last_quarter_view.png)
 
