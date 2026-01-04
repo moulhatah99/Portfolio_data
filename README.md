@@ -40,113 +40,35 @@ j'aide les entreprises à optimiser leurs performances en transformant des volum
 
 ---
 
-## 📂 Projets Data Phares
-### 📊 **Automatiser les rapports de ventes avec SQL**
+## 📂 Projets réalisés
+### 📊 **Automatisation de rapports de ventes avec SQL**
 
-#### 🧩 Contexte & problématique métier
+Dans ce projet, j’ai travaillé sur la conception d’un système de reporting de ventes automatisé à partir d’une base de données relationnelle existante : **Chinook Database**. L’objectif était de répondre à des problématiques concrètes de pilotage de la performance commerciale, en centralisant la logique métier directement dans SQL afin de produire des indicateurs fiables, cohérents et exploitables dans des outils de Business Intelligence.
 
-Une entreprise souhaite disposer d’un **reporting automatisé des performances de ventes**, afin de :
+#### 🧩 **Contexte & problématique métier**
 
-- Suivre l’évolution du chiffre d’affaires dans le temps  
-- Identifier les produits les plus rentables et les moins performants  
-- Analyser le comportement des clients (fréquence d’achat, contribution au CA)  
-- Faciliter la prise de décision commerciale (pricing, promotions, actions marketing)
+Une entreprise souhaite disposer d’un reporting automatisé offrant une vision claire et actualisée de ses performances de ventes, pour suivre l’évolution du chiffre d’affaires dans le temps, identifier les produits les plus rentables, détecter les produits sous-performants et mieux comprendre le comportement de ses clients(fréquence d’achat, contribution au CA), afin de faliciter la prise de décisions éclairées en matière de pricing, de promotions et de stratégie commerciale (actions marketing. :
 
-> Ce projet met en évidence ma capacité à transformer une base de données brute en **reporting automatisé orienté décision**, en centralisant la logique métier dans SQL et en la rendant exploitable par des outils BI.
+#### 🛠️ **Approche & méthodologie**
+
+Pour répondre à ces besoins, j’ai commencé par analyser le modèle relationnel de la base de données Chinook, en identifiant les tables clés liées aux ventes, aux produits, aux clients et aux dates de facturation. Cette étape m’a permis de comprendre les relations entre les entités et de définir les dimensions métiers nécessaires à l’analyse : le temps, les produits et les clients.
+
 ---
-
-#### ✅ Compétences démontrées
-
-- Analyse de données relationnelles
-- SQL analytique (jointures, agrégations)
-- Création de vues SQL automatisées
-- Modélisation simple de data mart
-- Reporting orienté métier
-  
----
-
-#### 🎯 Objectifs du projet
-
-Ce mini-projet avait pour objectifs de :
-
-- Analyser une base de données relationnelle de ventes (Chinook Database)
-- Extraire et agréger les ventes par produit, client et période
-- Calculer des KPI commerciaux clés :
-  - Chiffre d’affaires
-  - Quantités vendues
-  - Prix moyens
-- Mettre en place des **vues SQL** pour automatiser le reporting
-- Concevoir un mini data mart de ventes exploitable dans Excel et Power BI
----
-
-#### 🧰 Technologies utilisées
+##### 🧰 **Technologies utilisées**
 
 - SQL (SQLite)
 - DB Browser for SQLite
+
+J’ai ensuite développé des requêtes SQL analytiques reposant sur des jointures multi-tables et des agrégations avancées (SUM, AVG, COUNT) afin de calculer les principaux indicateurs de performance commerciale (chiffre d'affaires, quantités vendues, etc.). 
+Afin de rendre le reporting durable et facilement exploitable, j’ai conçu plusieurs vues SQL métiers qui centralisent la logique de calcul des KPI. Ces vues constituent un mini data mart de ventes, structuré autour d’indicateurs standards et directement consommable par des outils comme Excel ou Power BI. Cette approche permet de séparer clairement la logique métier, implémentée en SQL, de la couche de visualisation, garantissant ainsi la cohérence des indicateurs quel que soit l’outil de restitution utilisé.
+Les analyses mises en place couvrent plusieurs dimensions clés de la performance commerciale :
+  - **Suivi des ventes mensuelles et trimestrielles** afin d'identifier les périodes de forte activité, de mettre en évidence des phénomènes de saisonnalité et de comparer les performances d’un trimestre à l’autre. Ces analyses sont essentielles pour anticiper les pics de ventes et ajuster les stratégies commerciales en fonction des périodes les plus porteuses.
+  - **Analyse produits** : pour identifier les produits les plus rentables, mais aussi ceux dont les performances sont insuffisantes. L’utilisation d’une analyse de type Pareto (80/20) met en évidence le nombre minimal de produits générant la majorité du chiffre d’affaires. Cette approche aide à prioriser les efforts marketing, à optimiser les assortiments et à concentrer les actions commerciales sur les produits à plus forte valeur ajoutée.
+  - **Analyse clients** : pour identifier les meilleurs clients en termes de chiffre d’affaires et de fréquence d’achat. Ces analyses permettent de mettre en place une segmentation client de type RFM (Récence, Fréquence, Montant), essentielle pour comprendre la valeur des clients et adapter les actions marketing. Grâce à cette segmentation, il devient possible d’identifier les clients à forte valeur afin de les fidéliser, de repérer les clients à risque de churn et de proposer des offres ou promotions ciblées en fonction des habitudes d’achat.
+    
 ---
 
-#### 🛠️ Approche & méthodologie
-
-##### 1️⃣ Analyse de la base de données
-- Compréhension du modèle relationnel
-- Identification des clés de jointure
-- Analyse des dimensions métier : temps, produits, clients
-
-##### 2️⃣ **Requêtes SQL analytiques**
-- Jointures multi-tables
-- Agrégations (`SUM`, `AVG`, `COUNT`)
-- Calculs de KPI commerciaux
-- Analyses temporelles (mensuelles, trimestrielles)
-
-##### 3️⃣ Automatisation via des vues SQL
-- Centralisation de la logique métier
-- Création de vues SQL réutilisables
-- Calcul dynamique du **dernier trimestre disponible**
-- Standardisation des indicateurs de performance
-
----
-
-#### 📈 Analyses réalisées
-
-Les analyses suivantes ont été automatisées via SQL :
-
-##### 🔹 Performance des ventes
-- Ventes mensuelles (courbes de tendance)
-- Analyse de la saisonnalité
-- Comparaison des performances trimestrielles
-
-##### 🔹 Analyse produit
-- Top produits par chiffre d’affaires
-- Identification des produits les moins performants
-- Analyse Pareto (80/20)
-- Contribution des produits au chiffre d’affaires total
-
-##### 🔹 Analyse client
-- Meilleurs clients par chiffre d’affaires
-- Fréquence d’achat client
-- Contribution client au CA
-- Aide à l’identification du churn et de la valeur client
-
----
-
-#### 🧠 Automatisation du reporting avec SQL
-
-Plusieurs **vues SQL métiers** ont été conçues, notamment :
-
-- Vue de ventes du dernier trimestre
-- Vue de ventes mensuelles
-- Vue de classement des produits
-- Vue de performance client
-
-Ces vues permettent :
-
-- Une mise à jour automatique des KPI
-- Une exploitation directe dans Excel et Power BI
-- Une séparation claire entre :
-  - **Logique métier (SQL)**
-  - **Visualisation (BI)**
-
-> 💡 La logique métier étant centralisée dans SQL, les indicateurs restent cohérents quel que soit l’outil de restitution.
+L’ensemble de ces analyses offre une vision complète et actionnable de la performance commerciale. Elles permettent non seulement de suivre les indicateurs clés, mais aussi d’orienter les décisions stratégiques, qu’il s’agisse d’optimiser les ventes sur certaines périodes, de mettre en avant des produits spécifiques ou de personnaliser les actions marketing selon les profils clients.
 
 ---
 
@@ -157,6 +79,9 @@ Ces vues permettent :
 
 ##### Résultat de la requête – agrégation par produit
 ![Résultat requête ventes produit](images/sql_results_sales.png)
+
+#### ✅ Compétences démontrées
+> Ce projet illustre ma capacité à utiliser SQL comme un véritable outil d’analyse et de pilotage métier, et non comme un simple langage de requêtage. En centralisant la logique analytique dans des vues SQL automatisées, j’ai modélisé un data mart simple et conçu une solution de reporting robuste, évolutive et directement exploitable dans un contexte professionnel de Business Intelligence.
 
 ---
 
