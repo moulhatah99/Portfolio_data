@@ -42,7 +42,7 @@ j'aide les entreprises à optimiser leurs performances en transformant des volum
 
 ## 📂 Projets réalisés
 ### 📊 **Automatisation de rapports de ventes avec SQL**
-
+---
 Dans ce projet, j’ai travaillé sur la conception d’un système de reporting de ventes automatisé à partir d’une base de données relationnelle existante : **Chinook Database**. L’objectif était de répondre à des problématiques concrètes de pilotage de la performance commerciale, en centralisant la logique métier directement dans SQL afin de produire des indicateurs fiables, cohérents et exploitables dans des outils de Business Intelligence.
 
 #### 🧩 **Contexte & problématique métier**
@@ -53,9 +53,7 @@ Une entreprise souhaite disposer d’un reporting automatisé offrant une vision
 
 Pour répondre à ces besoins, j’ai commencé par analyser le modèle relationnel de la base de données Chinook, en identifiant les tables clés liées aux ventes, aux produits, aux clients et aux dates de facturation. Cette étape m’a permis de comprendre les relations entre les entités et de définir les dimensions métiers nécessaires à l’analyse : le temps, les produits et les clients.
 
----
 ##### 🧰 **Technologies utilisées**
-
 - SQL (SQLite)
 - DB Browser for SQLite
 
